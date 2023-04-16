@@ -1,0 +1,52 @@
+.container {
+  /* width: 100%; */
+  height: 4rem;
+  background-color: rgba(137, 43, 226, 0.663);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 2rem 0 2rem;
+  overflow: hidden;
+}
+.logo h1 {
+  font-size: xx-large;
+  margin-right: 5rem;
+}
+.searchinput {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  width: 20rem;
+
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+::placeholder {
+  font-size: large;
+  color: rgba(46, 7, 203, 0.569);
+}
+.list ul {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.list li {
+  margin-left: 3rem;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.list a {
+  color: white;
+}
+.list a:hover {
+  color: blueviolet;
+}
+.list {
+  align-items: center;
+}

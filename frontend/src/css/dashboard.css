@@ -1,0 +1,32 @@
+.con {
+  margin: 0 3rem;
+}
+button {
+  display: flex;
+  gap: 5px;
+  padding: 5px 7px;
+  transform: scale(1.2);
+}
+button:hover {
+  transform: scale(1);
+}
+.h1 {
+  text-align: center;
+}
+.contact {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.add:hover {
+  background-color: rgba(23, 12, 236, 0.569);
+  outline: none;
+  border: none;
+}

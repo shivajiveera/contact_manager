@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 600px) {
+  .search {
+    display: none;
+  }
+
+  .list {
+    display: none;
+  }
+  .container {
+    padding: 3px;
+  }
+
+  .container1 {
+    width: 85%;
+    margin: 2rem 1rem;
+  }
+  .innerform {
+    width: 90%;
+    margin: 2rem 2rem;
+  }
+
+  .main button {
+    margin-left: 3px;
+  }
+  .card {
+    margin-bottom: 2rem;
+    min-width: 80%;
+  }
+}

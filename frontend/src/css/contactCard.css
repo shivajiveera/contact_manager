@@ -1,0 +1,20 @@
+.card {
+  min-width: 20%;
+  border: 1px solid rgba(19, 3, 3, 0.417);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card small {
+  /* font-size: large; */
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
